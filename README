@@ -1,0 +1,6 @@
+$ PORT=2100 USERNAME=s3 PASSWORD=3942rafd98uvx BUCKET=mybucket.example.com ACCESS_KEY_ID=vkjxzvcjkjfkdhvc SECRET_ACCESS_KEY=vxcanzxcvmn rake
+
+bundle exec em-ftpd config.rb
+Starting ftp server on 0.0.0.0:2100
+
+# Anything you upload to localhost:2100 gets put into mybucket.example.com
